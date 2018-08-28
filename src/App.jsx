@@ -21,7 +21,7 @@ import Login from 'components/Login';
 class App extends React.Component {
 	constructor(props) {
 		super(props); {
-
+			document.title = "Turbo-Broccoli";
 		}
 	}
 
@@ -36,6 +36,9 @@ class App extends React.Component {
 	// 			pathname: "/login",
 	// 		})
 	// 	}
+	// }
+	// componentDidMount() {
+	// 	document.title = "Turbo-Broccoli";
 	// }
 
 	render() {
